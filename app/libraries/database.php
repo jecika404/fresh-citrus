@@ -68,7 +68,7 @@
       return $this->stmt->fetch(PDO::FETCH_OBJ);
     }
     // Get row
-    public function rowCoutnt() {
-      return $this->stmt->rowCoutnt();
+    public function rowCount() {
+      return $this->stmt->rowCount();
     }
   }

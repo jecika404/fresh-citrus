@@ -1,18 +1,25 @@
 <?php
   class Pages extends Controller {
     public function __construct(){
-      $this->itemModel = $this->model('Item');
+
     }
     
     public function index(){
-      $items = $this->itemModel->getItems();
+
       $data = [
-        'title' => 'Welcome',
-        'items' => $items
+        'title' => 'FreshCitrus',
       ];
 
 
       $this->view('pages/index', $data);
     }
 
+    public function about(){
+      $data = [
+        'title' => 'About Us',
+    
+      ];
+
+      $this->view('pages/about', $data);
+    }
   }

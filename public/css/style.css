@@ -1,0 +1,6 @@
+.bg-hero {
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 91vh;
+}
